@@ -1,10 +1,12 @@
-= ASAP RUST Programming : Additional Skill Acquisition Programme - Training Plan
+= RUST Programming : Additional Skill Acquisition Programme - Training Plan
 Sabaton Systems, LLP                                     
-Version 0.1, 23.Jun.2023                                             
+Version 0.1, 23.Jun.2023   
+:doctype: book                                          
 :sectnums:                                                          
 :toc:                                                               
 :toclevels: 4                                                       
-:toc-title: Contents                                              
+:toc-title: Contents       
+:chapter-label:                                        
                                                                     
 :description: Training plan for Rust programming language                             
 :keywords: rust programming                                                 
@@ -14,10 +16,36 @@ This ASAP (Additional Skill Acquisition Programme) training guide uses the Ferro
 material hosted at https://github.com/ferrous-systems/teaching-material which is released under the creative commons license. 
 https://creativecommons.org/licenses/by-sa/4.0/
 
-== First section
+Rust (https://www.rust-lang.org/) is a systems programming language
+that empowers everyone to write software that is performant and reliable
+while also being very productive by using modern programming language concepts.
 
-Some text
+Rust will play an important role in the future of software development.  This course aims to
+equip the student with the basics of the Rust programming language and lay a foundation
+for writing performant and safe software whether it is on embedded devices, the cloud or even in the browser.
 
-== Second section
+The course is organized into two modules. The first module focusses on getting to know 
+the language and its key concepts. The second mode guides the student to use the language and its tools
+to write production intent software by learning about the testing and documentation infrastructure.
+
+== Module 1
+
+=== Unit 1 : Rust language basics
+
+In this unit, the student will learn how to set up the development environment for the language
+and learn the key concepts of the language.
+
+The primary reference for the Rust programming language is called *"The Book"* and can be found at https://doc.rust-lang.org/book/title-page.html. 
+This by itself is a very good reference for a motivated student to learn the language. 
+
+==== Installing Rust
+
+link:./installation.html[Installation]
+
+== Module 2
+
+
+
+
 
 More test

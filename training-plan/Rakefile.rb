@@ -1,4 +1,4 @@
-TARGET_DIR='target'
+TARGET_DIR='../target'
 autoload :FileUtils, 'fileutils'
 require 'asciidoctor'
 #require 'asciidoctor-revealjs'
