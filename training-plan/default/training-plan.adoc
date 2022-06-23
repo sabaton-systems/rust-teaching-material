@@ -1,0 +1,23 @@
+= ASAP RUST Programming : Additional Skill Acquisition Programme - Training Plan
+Sabaton Systems, LLP                                     
+Version 0.1, 23.Jun.2023                                             
+:sectnums:                                                          
+:toc:                                                               
+:toclevels: 4                                                       
+:toc-title: Contents                                              
+                                                                    
+:description: Training plan for Rust programming language                             
+:keywords: rust programming                                                 
+:imagesdir: ./img                                                   
+
+This ASAP (Additional Skill Acquisition Programme) training guide uses the Ferrous Systems Rust training
+material hosted at https://github.com/ferrous-systems/teaching-material which is released under the creative commons license. 
+https://creativecommons.org/licenses/by-sa/4.0/
+
+== First section
+
+Some text
+
+== Second section
+
+More test
