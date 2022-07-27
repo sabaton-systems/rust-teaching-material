@@ -14,11 +14,20 @@ jobs:
         with:
           ruby-version: 2.6
 
-      - name: Build
+      - name: Set up Node 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
         run: |
+          npm ci
           gem install bundler
           bundle install --jobs 4 --retry 3
-          ./rake
+
+      - name: Build
+        run: |
+          PATH="$(pwd)/node_modules/.bin:$PATH" ./rake
 
       - name: Deploy
         uses: ferrous-systems/shared-github-actions/github-pages@main
