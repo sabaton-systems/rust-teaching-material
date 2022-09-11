@@ -149,5 +149,3 @@ include::./12.rs[]
 ----
 
 * `?` is "on error, early return"
-
-link:./index.html[Table of Contents]

@@ -103,3 +103,5 @@ From diverse backgrounds:
 - Dynamic languages (JS, Rubyists and Pythonistas)
 - Functional languages like Haskell and Scala
 - C/C++
+
+link:./index.html[Table of Contents]
