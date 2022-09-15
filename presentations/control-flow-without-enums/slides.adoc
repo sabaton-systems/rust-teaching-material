@@ -29,7 +29,28 @@ include::./2.rs[]
 <1> match arm
 <2> default arm
 
-== Control Flow with `match` and `enums`
+== Control Flow with `if`
+
+[source,rust]
+----
+include::./2_5.rs
+----
+
+
+== Control Flow with `if` and `match` 
+[source,rust]
+----
+include::./3_5.rs
+----
+
+== Control Flow with `if`, `match` and `map`
+[source,rust]
+----
+include::./4_5.rs
+----
+
+////
+ == Control Flow with `match` and `enums`
 
 [source,rust]
 ----
@@ -65,6 +86,7 @@ include::./5.rs[]
 include::./6.rs[]
 ----
 
+
 == Match guards
 
 [source,rust]
@@ -82,6 +104,7 @@ You can use the `|` operator to match several values in one arm.
 ----
 include::./7_5.rs[]
 ----
+////
 
 == Shorthand: `if let` conditionals
 
@@ -127,7 +150,7 @@ include::./11.rs[]
 include::./11a.rs[]
 ----
 
-terminate current iteration or entire loop, using optional labels if not referring to innermost loop
+Terminate current iteration or entire loop, using optional labels if not referring to innermost loop
 
 == `return`
 
@@ -142,10 +165,11 @@ include::./11b.rs[]
 
 == `?`
 
-
 [source,rust]
 ----
 include::./12.rs[]
 ----
 
 * `?` is "on error, early return"
+
+link:./index.html[Table of Contents]
