@@ -102,3 +102,5 @@ Macros:
 Use macros where there are no other good alternatives.
 
 Avoid overusing macros.
+
+link:./index.html[Table of Contents]

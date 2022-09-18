@@ -108,3 +108,5 @@ $ cargo doc --open
 ```sh
 $ cargo doc --document-private-items --open
 ```
+
+link:./index.html[Table of Contents]

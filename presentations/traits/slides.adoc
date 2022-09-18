@@ -56,8 +56,6 @@ It is like normal ownership and borrowing, but at the beginning somewhat unfamil
 
 |===
 
-
-
 == Interesting Differences to Common OO
 
 -   Values can be replaced when calling `&mut` functions
@@ -179,3 +177,5 @@ trait Bar {
     fn fooify(&self) -> impl Foo;
 }
 ----
+
+link:./index.html[Table of Contents]

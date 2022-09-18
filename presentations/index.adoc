@@ -1,5 +1,6 @@
 = Ferrous Teaching Material
 == Presentations
+
 .Module 1 - Unit 1
 * link:./overview.html[Overview]
 * link:./installation.html[Installation]
@@ -7,9 +8,9 @@
 * link:./mutability.html[Mutability]
 * link:./control-flow-without-enums.html[Control Flow (Basic)]
 * link:./drop-panic-abort.html[Drop, Panic, Abort]
-* link:./compound-types.html[Compound Types]
-* link:./strings.html[Strings]
-* link:./compound-types-enum.html[Compound Types - Enums]
+* link:./strings.html[Compound types - Struct, Tuple and String]
+* link:./compound-types.html[Compound types continued - Enums]
+* link:./standard-types.html[Standard types]
 * link:./control-flow.html[Control Flow (Enums)]
 * link:./error-handling.html[Error Handling]
 * link:./imports-modules-and-visibility.html[Imports, Modules, and Visibility]
@@ -30,9 +31,9 @@
 * link:./crates.html[Crates]
 * link:./testing.html[Testing]
 * link:./send-and-sync.html[Send and Sync]
-* link:./mini-project.html[Mini project topics]
 * link:./functions.html[Functions]
 * link:./stack-and-heap.html[Stack and Heap]
+* Mini Project 
 
 .Module 2 - Unit 1
 * link:./documentation.html[Documentation]

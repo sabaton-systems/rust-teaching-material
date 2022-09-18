@@ -97,3 +97,5 @@ To be converted like this, errors must implement the std::error::Error trait.
 == Reporting Errors Only
 
 If you only have to report an error, but don't have a meaningful return value, use `Result<(), Error>`.
+
+link:./index.html[Table of Contents]

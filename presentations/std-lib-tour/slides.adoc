@@ -90,3 +90,5 @@ Path handling and file manipulation.
 ----
 include::./6.rs[]
 ----
+
+link:./index.html[Table of Contents]

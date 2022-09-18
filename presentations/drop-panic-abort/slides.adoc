@@ -47,7 +47,7 @@ Rust also has another error mechanism: `panic!`
 
 [source,rust]
 ----
-include::./2.rs[]
+include::./1_5.rs[]
 ----
 
 == !

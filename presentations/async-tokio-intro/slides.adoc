@@ -97,3 +97,5 @@ async fn main() {
 * Tower: Modular server components (retry, load-balance, etc)
 * Tracing: Structured tracing and data-collection
 * Bytes: Network byte manipulation
+
+link:./index.html[Table of Contents]

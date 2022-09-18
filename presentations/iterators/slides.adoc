@@ -96,3 +96,5 @@ Filter out unwanted values, skipping further computation on them:
 ----
 include::./6.rs[]
 ----
+
+link:./index.html[Table of Contents]

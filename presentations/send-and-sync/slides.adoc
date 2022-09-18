@@ -87,3 +87,5 @@ Carrying this information at the type system level allows driving data race bugs
 Preventing this error class from reaching production systems.
 
 `Send` and `Sync` are independent of the choice of concurrency (async, threaded, etc.).
+
+link:./index.html[Table of Contents]

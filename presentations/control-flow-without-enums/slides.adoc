@@ -54,7 +54,7 @@ include::./4_5.rs
 
 [source,rust]
 ----
-include::./3.rs[]
+////include::./3.rs[]
 ----
 
 <1> `enum` can take multiple forms
@@ -66,7 +66,7 @@ include::./3.rs[]
 
 [source,rust]
 ----
-include::./4.rs[]
+////include::./4.rs[]
 ----
 
 * `Option` describes the possible absence of a value
@@ -76,22 +76,23 @@ include::./4.rs[]
 
 [source,rust]
 ----
-include::./5.rs[]
+////include::./5.rs[]
 ----
 
 == Using `Option` and `Result`
 
 [source,rust]
 ----
-include::./6.rs[]
+////include::./6.rs[]
 ----
 
+////
 
 == Match guards
 
 [source,rust]
 ----
-include::./7.rs[]
+include::./6_5.rs[]
 ----
 
 * Match guards allow further refining of a `match`
@@ -104,7 +105,7 @@ You can use the `|` operator to match several values in one arm.
 ----
 include::./7_5.rs[]
 ----
-////
+
 
 == Shorthand: `if let` conditionals
 
