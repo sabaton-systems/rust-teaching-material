@@ -160,3 +160,5 @@ https://book.async.rs
 * 3.7
 * 3.8
 * 3.9
+
+link:./index.html[Table of Contents]

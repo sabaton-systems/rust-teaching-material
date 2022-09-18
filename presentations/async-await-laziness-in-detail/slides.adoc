@@ -208,3 +208,4 @@ include::./futures-vs-promises.js[]
 * `await` triggers the whole chain to execute
 * no "fire now, `await` later" workflow
 
+link:./index.html[Table of Contents]

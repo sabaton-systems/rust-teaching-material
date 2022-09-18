@@ -50,3 +50,5 @@ Futures are `poll` based - that means they get asked if they are complete.
 * This happens an infinite number of times, until they mark themselves complete
 * The process is optimised through the `Waker` type
 * Implementing poll yourself is rather easy
+
+link:./index.html[Table of Contents]

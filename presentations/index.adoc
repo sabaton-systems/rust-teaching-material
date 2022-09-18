@@ -40,15 +40,25 @@
 
 .Module 2 - Unit 2
 * link:./async-tokio-intro.html[Intro to Tokio]
-* link:./async-await-intro.html[Intro to Async/Await]
-* link:./async-building-blocks.html[Async building blocks]
-* link:./async-implementation.html[Async Implementation Details]
-* link:./async-component-interaction.html[Async component interaction]
-* link:./async-growth-handling.html[Async: Avoiding disaster and unbounded growth]
-* link:./async-await-laziness-in-detail.html[Async/Await: Laziness in detail (Rust vs other languages)]
+* link:./async-await.html[Intro to Async/Await]
+* link:./async-await-intro.html[Async/Await Continued]
 
 .Module 2 - Unit 3
-* link:./group-project.html[Group project]
+* [Group project]
+
+.Advanced Topics
+* [Async building blocks]
+* [Async Implementation Details]
+* [Async component interaction]
+* [Async: Avoiding disaster and unbounded growth]
+* [Async/Await: Laziness in detail (Rust vs other languages)]
+* [Dynamic Dispatch]
+* [Advanced Generics]
+* [Closures]
+* [Working With Nightly]
+* [Debugging Rust]
+* [Basic Design Patterns]
+
 ////
 .Advanced
 * link:./dynamic-dispatch.html[Dynamic Dispatch]
