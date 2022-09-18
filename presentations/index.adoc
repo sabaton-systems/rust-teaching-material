@@ -33,7 +33,7 @@
 * link:./send-and-sync.html[Send and Sync]
 * link:./functions.html[Functions]
 * link:./stack-and-heap.html[Stack and Heap]
-* Mini Project 
+* [Mini Project]
 
 .Module 2 - Unit 1
 * link:./documentation.html[Documentation]
