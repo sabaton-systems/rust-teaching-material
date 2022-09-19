@@ -1,4 +1,4 @@
-= Ferrous Teaching Material
+= Rust Teaching Material
 == Presentations
 
 .Module 1 - Unit 1
