@@ -1,9 +1,61 @@
-= Strings
+= Compound types - Structs, Tuples, Strings 
 
 link:./index.html[Table of Contents]
 
+== Structs
 
-== !
+`struct`s group and name data of different types.
+
+== Definition
+
+[source,rust]
+----
+include::./1_5.rs[]
+----
+
+== Construction
+
+[.notes]
+--
+- there is no partial initialization
+--
+
+[source,rust]
+----
+include::./2_5.rs[]
+----
+
+== Side note
+
+It's common to hide construction behind a call to `Point::new()` instead of using a raw struct literal.
+
+== Field Access
+
+[.notes]
+--
+- note: no `->` operator for structs behind pointers, always `.`
+--
+
+[source,rust]
+----
+include::./3_5.rs[]
+----
+
+== Tuples
+
+[source,rust]
+----
+include::./4_5.rs[]
+----
+
+== Tuple Structs
+
+[source,rust]
+----
+include::./5_5.rs[]
+----
+
+== Strings
 
 There are several different kinds of strings in Rust.
 
@@ -45,6 +97,7 @@ include::./2.rs[]
 ----
 This is because `String` s implement `Deref<Target=str>` .
 
+////
 == Exotic String types
 
 -   `OsStr` and `OsString` may show up when working with file systems or system calls.
@@ -72,7 +125,7 @@ These types represent valid C compatible strings.
 They are predominantly used when doing FFI with external code.
 
 It is strongly recommended you read *all* of the documentation on these types before using them.
-
+////
 == Common String Tasks
 
 Splitting:
@@ -81,7 +134,6 @@ Splitting:
 ----
 include::./3.rs[]
 ----
-
 
 == Common String Tasks
 
