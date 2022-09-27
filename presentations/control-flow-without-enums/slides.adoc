@@ -33,21 +33,13 @@ include::./2.rs[]
 
 [source,rust]
 ----
-include::./2_5.rs
+include::./2_5.rs[]
 ----
 
 
-== Control Flow with `if` and `match` 
-[source,rust]
-----
-include::./3_5.rs
-----
 
-== Control Flow with `if`, `match` and `map`
-[source,rust]
-----
-include::./4_5.rs
-----
+
+
 
 ////
  == Control Flow with `match` and `enums`
@@ -96,6 +88,13 @@ include::./6_5.rs[]
 ----
 
 * Match guards allow further refining of a `match`
+
+== FizzBuzz with match guards 
+
+[source,rust]
+----
+include::./3_5.rs[]
+----
 
 == Combining matches
 

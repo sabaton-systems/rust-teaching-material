@@ -2,6 +2,12 @@
 
 link:./index.html[Table of Contents]
 
+== Control Flow with `if`, `match` and `map`
+[source,rust]
+----
+include::./4_5.rs[]
+----
+
 == Control Flow with `match` and `enums`
 
 [source,rust]

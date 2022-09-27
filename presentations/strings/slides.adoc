@@ -183,3 +183,5 @@ include::./7.rs[]
 ----
 include::./8.rs[]
 ----
+
+link:./index.html[Table of Contents]
