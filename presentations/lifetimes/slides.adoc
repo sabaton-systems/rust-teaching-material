@@ -126,31 +126,4 @@ Lifetimes describe all types, not only references, therefore they are also bound
 include::./8.rs[]
 ----
 
-== Lifetime Elision
-
-For simple cases, lifetimes are automatically inserted into signatures.
-
-[source,rust]
-----
-include::./9.rs[]
-----
-
-== Lifetimes and Bindings
-
-[source,rust]
-----
-include::./10.rs[]
-----
-[source,rust]
-----
-include::./11.rs[]
-----
-
-== Lifetimes and Boxes
-
-For boxes, the default lifetime bound of the contained value is `'static`. Sometimes, this is too long and can be overwritten:
-
-[source,rust]
-----
-include::./12.rs[]
-----
+link:./index.html[Table of Contents]

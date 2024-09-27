@@ -59,3 +59,4 @@ Generic functions are used when computations can be expressed in an abstract way
 
 - possible detour: monomorphization, generic contraints (+ where clauses)
 --
+link:./index.html[Table of Contents]

@@ -99,3 +99,5 @@ For details, check the http://doc.crates.io/manifest.html[Cargo Manifest docs].
 ----
 include::./8.sh[]
 ----
+
+link:./index.html[Table of Contents]

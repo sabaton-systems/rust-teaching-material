@@ -96,3 +96,15 @@ Filter out unwanted values, skipping further computation on them:
 ----
 include::./6.rs[]
 ----
+
+
+== Returning Generic Iterators
+
+Currently, Rust allows no generic return values. You have to use impl trait here.
+
+[source,rust]
+----
+include::./7.rs[]
+----
+
+link:./index.html[Table of Contents]

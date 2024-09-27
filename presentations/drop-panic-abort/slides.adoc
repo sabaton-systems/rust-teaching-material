@@ -87,3 +87,5 @@ The panic hook is executed.
 == Double-panics
 
 Panicking while a panic is being handled - for example in a destructor - invokes undefined behaviour. For that reason, the program will immediately abort.
+
+link:./index.html[Table of Contents]

@@ -209,3 +209,5 @@ or used with `+cargo build --features experimental,other_feature`
 == Directly invoking `rustc`
 
 `cargo rustc` invokes `rustc` directly and allows passing of additional parameters.
+
+link:./index.html[Table of Contents]

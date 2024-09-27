@@ -206,3 +206,5 @@ include::./async_trait.rs[]
 * async iterators
 * streams
 * the progress is slow yet steady
+
+link:./index.html[Table of Contents]

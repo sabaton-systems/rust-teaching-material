@@ -67,3 +67,5 @@ Published crates can be found on https://crates.io[crates.io], their documentati
 == Crates and Applications
 
 `cargo install my_crate` installs the applications shipped with a crate.
+
+link:./index.html[Table of Contents]

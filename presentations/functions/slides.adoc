@@ -96,3 +96,5 @@ This is a shortcut for `self: Self`, where `Self` is an alias for whatever `impl
 ----
 include::./10.rs[]
 ----
+
+link:./index.html[Table of Contents]

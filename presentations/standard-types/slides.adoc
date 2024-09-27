@@ -2,7 +2,6 @@
 
 link:./index.html[Table of Contents]
 
-
 == !
 
 There several pervasive types in Rust.
@@ -134,3 +133,5 @@ Manipulate a key's cooresponding entry in place.
 ----
 include::./11.rs[]
 ----
+
+link:./index.html[Table of Contents]

@@ -1,60 +1,6 @@
-= Compound Types
+= Compound Types - Enums
 
 link:./index.html[Table of Contents]
-
-== Structs
-
-`struct`s group and name data of different types.
-
-== Definition
-
-[source,rust]
-----
-include::./1.rs[]
-----
-
-
-== Construction
-
-[.notes]
---
-- there is no partial initialization
---
-
-[source,rust]
-----
-include::./2.rs[]
-----
-
-== Side note
-
-It's common to hide construction behind a call to `Point::new()` instead of using a raw struct literal.
-
-== Field Access
-
-[.notes]
---
-- note: no `->` operator for structs behind pointers, always `.`
---
-
-[source,rust]
-----
-include::./3.rs[]
-----
-
-== Tuples
-
-[source,rust]
-----
-include::./4.rs[]
-----
-
-== Tuple Structs
-
-[source,rust]
-----
-include::./5.rs[]
-----
 
 == Enums
 
@@ -125,3 +71,5 @@ The empty tuple `()` represents the absence of data.
 ----
 include::./9.rs[]
 ----
+
+link:./index.html[Table of Contents]

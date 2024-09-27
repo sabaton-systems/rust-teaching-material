@@ -2,7 +2,6 @@
 
 link:./index.html[Table of Contents]
 
-
 == Imports
 
 All used items must be declared. This is similar to Java or Haskell.
@@ -191,3 +190,5 @@ In general, exporting fields should be avoided:
 ----
 include::./14.rs[]
 ----
+
+link:./index.html[Table of Contents]

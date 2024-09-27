@@ -93,3 +93,5 @@ Slices carry a pointer to the array and a length. Slices cannot be resized.
 ----
 include::./4.rs[]
 ----
+
+link:./index.html[Table of Contents]

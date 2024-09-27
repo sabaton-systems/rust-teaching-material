@@ -35,3 +35,5 @@ Mutability is fundamental to Rust and is a common consideration.
 == !
 
 Mutability is a property of variables and bindings, not of the bound data!
+
+link:./index.html[Table of Contents]

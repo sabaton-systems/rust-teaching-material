@@ -29,20 +29,21 @@ Calling `.entry()` on a `HashMap` accesses this API and allows for 'insert or up
 ----
 include::./1.rs[]
 ----
+////
+//  == PhantomData
 
-== PhantomData
+// https://doc.rust-lang.org/std/marker/struct.PhantomData.html[`std::marker::PhantomData`]
 
-https://doc.rust-lang.org/std/marker/struct.PhantomData.html[`std::marker::PhantomData`]
+// Zero-sized types are used to mark things that "act like" they own a `T`.
 
-Zero-sized types are used to mark things that "act like" they own a `T`.
+// These are useful for types which require markers, generics, or use unsafe code.
 
-These are useful for types which require markers, generics, or use unsafe code.
-
-[source,rust]
-----
-include::./2.rs[]
-----
-
+// [source,rust]
+// ----
+// include::./2.rs[]
+// ----
+////
+ 
 == Command
 
 https://doc.rust-lang.org/std/process/struct.Command.html[`std::process::Command`]
@@ -90,3 +91,5 @@ Path handling and file manipulation.
 ----
 include::./6.rs[]
 ----
+
+link:./index.html[Table of Contents]

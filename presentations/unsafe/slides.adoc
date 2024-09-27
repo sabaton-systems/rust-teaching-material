@@ -76,3 +76,5 @@ include::./2.rs[]
 ----
 include::./vscode-settings.json[]
 ----
+
+link:./index.html[Table of Contents]
